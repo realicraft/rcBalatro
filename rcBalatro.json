@@ -1,0 +1,18 @@
+{
+    "id": "rcbalatro",
+    "name": "rcBalatro",
+    "author": ["realicraft"],
+	"description": "funny balala mod",
+	"prefix": "rcb",
+	"main_file": "main.lua",
+	"priority": 126,
+	"badge_colour": "bfb21d",
+	"badge_text_colour": "FFFFFF",
+	"display_name": "rcBalatro",
+	"version": "0.1.0~indev",
+	"dependencies": [
+		"rcblib (>=1.0.0)",
+		"Steamodded (>=1.0.0~BETA-0308a)",
+		"Lovely (>=0.6)"
+	]
+}
