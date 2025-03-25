@@ -9,6 +9,7 @@ SMODS.Joker {
     pos = { x = 0, y = 0 },
     soul_pos = { x = 0, y = 1 },
     cost = 20,
+    order = 12,
     blueprint_compat = true,
     calculate = function(self, card, context)
         if context.before and context.cardarea == G.jokers and not context.blueprint then

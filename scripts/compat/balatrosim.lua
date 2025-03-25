@@ -9,6 +9,7 @@ SMODS.Joker {
     atlas = 'rc_jokers',
     pos = { x = 0, y = 1 },
     cost = 6,
+    order = 7,
     blueprint_compat = true,
     calculate = function(self, card, context)
         if context.individual and context.cardarea == G.play and rcBalatro.isAce(context.other_card) and BalatroSim.has_alignment("", context.other_card, "bs_rc_align_water") then
