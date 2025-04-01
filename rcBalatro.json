@@ -9,7 +9,7 @@
 	"badge_colour": "bfb21d",
 	"badge_text_colour": "FFFFFF",
 	"display_name": "rcBalatro",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"dependencies": [
 		"rcblib (>=1.1.0)",
 		"Steamodded (>=1.0.0~BETA-0312a)",

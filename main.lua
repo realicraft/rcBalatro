@@ -19,14 +19,16 @@ SMODS.Atlas {
 -- joker atlas
 SMODS.Atlas {
     key = "rc_jokers",
-    path = "jokers.png",
+    --path = "jokers.png",
+    path = "jokers_af.png",
     px = 71,
     py = 95
 }
 -- legendary atlas
 SMODS.Atlas {
     key = "rc_legendaries",
-    path = "legendaries.png",
+    --path = "legendaries.png",
+    path = "legendaries_af.png",
     px = 71,
     py = 95
 }
