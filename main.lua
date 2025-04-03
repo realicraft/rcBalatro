@@ -19,16 +19,14 @@ SMODS.Atlas {
 -- joker atlas
 SMODS.Atlas {
     key = "rc_jokers",
-    --path = "jokers.png",
-    path = "jokers_af.png",
+    path = "jokers.png",
     px = 71,
     py = 95
 }
 -- legendary atlas
 SMODS.Atlas {
     key = "rc_legendaries",
-    --path = "legendaries.png",
-    path = "legendaries_af.png",
+    path = "legendaries.png",
     px = 71,
     py = 95
 }
@@ -136,4 +134,7 @@ if (SMODS.Mods["magic_the_jokering"] or {}).can_load then
 end
 if (SMODS.Mods["Cryptid"] or {}).can_load then
     assert(SMODS.load_file('scripts/compat/cryptid.lua'))()
+end
+if (SMODS.Mods["malverk"] or {}).can_load then
+    assert(SMODS.load_file('scripts/compat/malverk.lua'))()
 end
